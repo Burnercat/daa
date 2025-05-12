@@ -1,5 +1,5 @@
 import java.util.*;
-public class GaleShapley{
+public class galeshapley{
     static int n;
     static boolean prefersOverCurrent(int[][] Women,int w,int m,int cur_m){
         for(int i=0;i<n;i++){
@@ -60,3 +60,8 @@ public class GaleShapley{
         stableMarriage(Men,Women);
     }
 }
+// Time Complexity:
+// Best Case: O(n^2)
+// Average Case: O(n^2)
+// Worst Case: O(n^2)
+

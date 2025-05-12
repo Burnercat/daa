@@ -67,3 +67,8 @@ public class Dijkstra{
         findShortestPaths(map, start, locations);
     }
 }
+// Time Complexity:
+// Best Case: O((V + E) log V)
+// Average Case: O((V + E) log V)
+// Worst Case: O((V + E) log V)
+

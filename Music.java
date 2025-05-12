@@ -67,15 +67,15 @@ class Music{
         int[] user1=new int[n];
         int[] user2=new int[n];
         int[] user3=new int[n];
-        System.out.println("Enter the playlist1: ");
+        System.out.println("Enter the playlist 1: ");
         for(int i=0;i<n;i++){
             user1[i]=sc.nextInt();
         }
-        System.out.println("Enter the playlist2: ");
+        System.out.println("Enter the playlist 2: ");
         for(int i=0;i<n;i++){
             user2[i]=sc.nextInt();
         }
-        System.out.println("Enter the playlist3: ");
+        System.out.println("Enter the playlist 3: ");
         for(int i=0;i<n;i++){
             user3[i]=sc.nextInt();
         }
@@ -96,3 +96,7 @@ class Music{
         }
     }
 }
+// Time Complexity:
+// Best Case: O(n log n)
+// Average Case: O(n log n)
+// Worst Case: O(n log n)

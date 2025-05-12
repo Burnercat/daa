@@ -1,5 +1,5 @@
 import java.util.*;
-class Kruskal4{
+class Kruskal{
     static class Edge {
         int u, v, weight;
         Edge(int u, int v, int weight) {
@@ -58,3 +58,7 @@ class Kruskal4{
         }
     }
 }
+// Time Complexity:
+// Best Case: O(E log E)
+// Average Case: O(E log E)
+// Worst Case: O(E log E)

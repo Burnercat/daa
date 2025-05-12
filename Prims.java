@@ -1,5 +1,5 @@
 import java.util.*;
-class PGraph{
+class Prims{
     public static void Prim(int G[][],int v){
         int INF=9999999;
         int no_edge;
@@ -45,3 +45,12 @@ class PGraph{
         Prim(G,v);
     }
 }
+// Time Complexity (using Matrix):
+// Best Case: O(V^2)
+// Average Case: O(V^2)
+// Worst Case: O(V^2)
+
+// Time Complexity (using Min Heap + Adjacency List):
+// Best Case: O((V + E) log V)
+// Average Case: O((V + E) log V)
+// Worst Case: O((V + E) log V)
